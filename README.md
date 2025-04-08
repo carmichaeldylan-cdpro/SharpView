@@ -1,6 +1,12 @@
 # SharpView
 .NET port of [PowerView](https://github.com/PowerShellMafia/PowerSploit/blob/dev/Recon/PowerView.ps1)
 
+## FIPS Compliance
+This version of SharpView is FIPS 140-2 compliant. It uses:
+- SHA-256 for cryptographic operations
+- FIPS-validated cryptographic algorithms
+- ILMerge for assembly merging (FIPS-compliant)
+
 #### Usage:
 ```
 C:\>SharpView.exe Get-DomainController -Domain test.local -Server dc.test.local -Credential admin@test.local/password  

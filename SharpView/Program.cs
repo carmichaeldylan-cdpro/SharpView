@@ -16,6 +16,9 @@ namespace SharpView
     {
         static void Main(string[] args)
         {
+            // Initialize FIPS-compliant assembly resolver
+            FipsCompliantAssemblyResolver.Initialize();
+            
             if (args.Length == 0)
             {
                 Logger.Write_Output("Ex: SharpView.exe Method-Name -Switch -String domain -Array domain,user -Enum ResetPassword -IntEnum CREATED_BY_SYSTEM,APP_BASIC -PointEnum ResetPassword,All -Credential admin@domain.local/password");

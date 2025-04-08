@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("SharpView")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("FIPS 140-2 Compliant Active Directory Security Assessment Tool")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("SharpView")]
